@@ -1,0 +1,31 @@
+ body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .clock {
+      background-color: rgba(255, 255, 255, 0.05);
+      padding: 40px 60px;
+      border-radius: 20px;
+      box-shadow: 0 0 20px rgba(0, 255, 255, 0.4);
+      text-align: center;
+    }
+
+    .time {
+      font-size: 60px;
+      color: #00ffff;
+      text-shadow: 0 0 10px #00ffff;
+      letter-spacing: 2px;
+    }
+
+    .date {
+      font-size: 20px;
+      color: #ffffffaa;
+      margin-top: 10px;
+    }
